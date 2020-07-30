@@ -1,53 +1,37 @@
 {
   "categorias": [
     {
-      "titulo": "Front End",
-      "link": "https://www.alura.com.br/formacao-front-end",
+      "titulo": "Inspirações Hobbistas",
+      "link": "/",
       "cor": "#6BD1FF",
       "link_extra": {
-        "text": "Formação de Front End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
+        "text": "Inpirações de hobbys aleatórios",
+        "url": "/"
       },
       "videos": [
         {
-          "titulo": "O que faz uma desenvolvedora front-end? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw"
+          "titulo": "Breaking Into a Smart Home With A Laser",
+          "url": "https://www.youtube.com/watch?v=ozIKwGt38LQ"
         },
         {
-          "titulo": "SEO com React",
-          "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+          "titulo": "Casting the 50K YouTube Subscriber Plaque | Process",
+          "url": "https://www.youtube.com/watch?v=qMof6IcsVzI"
         },
         {
-          "titulo": "Componentização com VanillaJS #AluraMais",
-          "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
+          "titulo": "How To Make The Mini Master Sword",
+          "url": "https://www.youtube.com/watch?v=gIIDNLqAXmM"
         },
         {
-          "titulo": "Pare de chutar e aprenda a display: inline #01",
-          "url": "https://www.youtube.com/watch?v=5PS6ku8NzIE"
-        },
-        {
-          "titulo": "Template String: Interpolando strings com JavaScript #AluraMais",
-          "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0"
-        },
-        {
-          "titulo": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w"
-        },
-        {
-          "titulo": "Novidades do Angular v9",
-          "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
-        },
-        {
-          "titulo": "Base para aprender os frameworks",
-          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
-        }        
+          "titulo": "Smoking MATCH Underwater. DIY a Simple Way / RESIN ART",
+          "url": "https://www.youtube.com/watch?v=xONq60H4yYQ"
+        }
       ]
     },
     {
-      "titulo": "Back End",
+      "titulo": "Programação",
       "cor": "#00C86F",
       "link_extra": {
-        "text": "Cursos de Back End na Alura",
+        "text": "Alguns vídeos sobre programação",
         "url": "https://www.alura.com.br/cursos-online-programacao"
       },
       "videos": [
@@ -56,12 +40,12 @@
           "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
         },
         {
-          "titulo": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
-          "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY"
-        },
-        {
           "titulo": "Programei 4 robôs que criam vídeos para mim no YouTube",
           "url": "https://www.youtube.com/watch?v=kjhu1LEmRpY"
+        },
+        {
+          "titulo": "Clonando interface do Nubank (+ ANIMAÇÕES) com React Native",
+          "url": "https://www.youtube.com/watch?v=DDm0M_rZLJo"
         },
         {
           "titulo": "API: Dicionário do Programador",
@@ -70,6 +54,22 @@
         {
           "titulo": "Usando Git Direito",
           "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
+        },
+        {
+          "titulo": "3 Apps 'ridículos' que faturam mais de 10 mil dólares",
+          "url": "https://www.youtube.com/watch?v=aw6qSf-pg5w"
+        },
+        {
+          "titulo": "Como criar um servidor HTTP com NodeJS",
+          "url": "https://www.youtube.com/watch?v=ZPdYdVPtWNo"
+        },
+        {
+          "titulo": "Criei um programa para ver pessoas por dentro!",
+          "url": "https://www.youtube.com/watch?v=EEhfCa1iP8k"
+        },
+        {
+          "titulo": "Inteligência Artificial detecta humanos ATRAVÉS de paredes!",
+          "url": "https://www.youtube.com/watch?v=JWuS6q9EYAo"
         }
       ]
     },
@@ -123,7 +123,7 @@
     },
     {
       "titulo": "Games",
-      "cor": "red",
+      "cor": "#E50914",
       "link_extra": {
         "text": "Formação de Jogos na Alura",
         "url": "https://www.alura.com.br/formacao-jogos-unity"

@@ -67,11 +67,12 @@ ContentAreaContainer.Title = styled.h2`
 
 export const BannerMainContainer = styled.section`
   height: 80vh;
-  position: relative;
+  position: relative; 
   color: #fff;
   background-image: ${({ backgroundImage }) => `url(${backgroundImage})`}; 
   background-size: cover;
   background-position: center;
+  
   @media (max-width: 800px) {
     height: auto;
     min-height: 50vh;
@@ -83,18 +84,18 @@ export const BannerMainContainer = styled.section`
     display: block;
     position: absolute;
     left: 0;
-    right: 0;
+    right: 0;    
     margin: auto;
     height: 20%;
   }
 
-  &:before {
+  &:before {    
     top: 0;
     height: 100%;
-    background: rgba(0,0,0,0.5);
+    background: rgba(0,0,0,0.7);
   }
 
-  &:after {
+  &:after {    
     bottom: 0;
     background: linear-gradient(0deg, #141414 0%, transparent 100%);
   }
