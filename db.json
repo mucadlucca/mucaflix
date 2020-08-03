@@ -1,0 +1,16 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Front-end",
+      "description": "Categoria Foda!",
+      "color": "#e90514"
+    },
+    {
+      "id": 2,
+      "name": "Back-end",
+      "description": "Outra Categoria Foda!",
+      "color": "#e90fff"
+    }
+  ]
+}

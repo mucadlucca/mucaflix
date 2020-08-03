@@ -3,15 +3,15 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import './index.css';
 import Home from './pages/Home';
-import CadastroVideo from './pages/cadastro/Video'
-import CadastroCategoria from './pages/cadastro/Categoria'
+import StoreVideo from './pages/store/Video'
+import StoreCategory from './pages/store/Category'
 
 ReactDOM.render(
   <BrowserRouter>
     <Switch>
       <Route path="/" component={Home} exact />
-      <Route path="/cadastro/video" component={CadastroVideo} />
-      <Route path="/cadastro/categoria" component={CadastroCategoria} />
+      <Route path="/cadastro/video" component={StoreVideo} />
+      <Route path="/cadastro/categoria" component={StoreCategory} />
       {/* <Route component={404} />       */}
     </Switch>
   </BrowserRouter>,
