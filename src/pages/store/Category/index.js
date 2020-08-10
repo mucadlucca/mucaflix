@@ -1,37 +1,24 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import useForm from '../../../hooks/useForm';
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
+import config from '../../../config';
 
 function StoreCategory() {
   const inicialValues = {
-    name: '',
+    title: '',
     description: '',
     color: '#E50914',
   };
 
+  const { handleChange, formValues, clearForm } = useForm(inicialValues);
+
   const [categories, setCategories] = useState([]);
-  const [formValues, setFormValues] = useState(inicialValues);
-
-  function setFormValue(key, value) {
-    setFormValues({
-      ...formValues,
-      [key]: value,
-    });
-  }
-
-  function handleChange(event) {
-    setFormValue(
-      event.target.getAttribute('name'),
-      event.target.value,
-    );
-  }
 
   useEffect(() => {
-    const URL = 'http://localhost:3333/categories';
-
-    fetch(URL)
+    fetch(`${config.URL}/categories`)
       .then(async (response) => {
         const data = await response.json();
         setCategories(data);
@@ -42,7 +29,7 @@ function StoreCategory() {
     <PageDefault>
       <h1>
         Cadastro de Categoria:
-        {formValues.name}
+        {formValues.title}
       </h1>
 
       <form onSubmit={function handleSubmit(event) {
@@ -52,15 +39,15 @@ function StoreCategory() {
           formValues,
         ]);
 
-        setFormValues(inicialValues);
+        clearForm();
       }}
       >
 
         <FormField
           label="Nome da categoria: "
           type="text"
-          name="name"
-          value={formValues.name}
+          name="title"
+          value={formValues.title}
           onChange={handleChange}
         />
 
@@ -93,8 +80,8 @@ function StoreCategory() {
 
       <ul>
         {categories.map((category) => (
-          <li key={`${category.name}`}>
-            {category.name}
+          <li key={`${category.title}`}>
+            {category.title}
           </li>
         ))}
       </ul>

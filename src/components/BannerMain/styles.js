@@ -101,9 +101,10 @@ export const BannerMainContainer = styled.section`
   }
 `;
 
-export const WatchButton = styled.button`
+export const WatchButton = styled.a`
   font-family: 'Roboto', sans-serif;
   box-sizing: border-box;
+  max-width: 110px;
   cursor: pointer;
   padding: 16px 24px;
   font-style: normal;

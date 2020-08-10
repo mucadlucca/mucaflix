@@ -1,12 +1,12 @@
 import React from 'react';
 import { FooterBase } from './styles';
-import Logo from '../../assets/img/logo-gregio.svg';
+import Logo from '../../assets/img/symbol.png';
 
 function Footer() {
   return (
     <FooterBase>
-      <a href="https://gregioalfaiataria.com.br/" target="_blank" rel="noopener noreferrer">
-        <img src={Logo} style={{height: "80px" }} alt="Logo Gregio" />
+      <a href="/" target="_blank" rel="noopener noreferrer">
+        <img src={Logo} style={{ height: '60px' }} alt="Simbolo M do Mucaflix" />
       </a>
       <p>
         Orgulhosamente criado durante a

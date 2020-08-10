@@ -9,7 +9,6 @@ const FormFieldWrapper = Styled.div`
   }
   input[type="color"] {
     padding-left: 56px;
-    max-width: 200px;
     cursor: pointer;
   }
 `;
@@ -48,7 +47,7 @@ const Input = Styled.input`
   border-bottom: 4px solid #53585D;
   
   padding: 16px 16px;
-  margin-bottom: 45px;
+  margin-bottom: 32px;
   
   resize: none;
   border-radius: 4px;

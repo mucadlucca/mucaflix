@@ -11,7 +11,8 @@
       "videos": [
         {
           "titulo": "Breaking Into a Smart Home With A Laser",
-          "url": "https://www.youtube.com/watch?v=ozIKwGt38LQ"
+          "url": "https://www.youtube.com/watch?v=ozIKwGt38LQ",
+          "description": "Using a Laser to unlock smart devices that use Goggle Assistant, Alexa or Siri"
         },
         {
           "titulo": "Casting the 50K YouTube Subscriber Plaque | Process",
