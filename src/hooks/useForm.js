@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
-export default function useForm(inicialValues) {
-  const [formValues, setFormValues] = useState(inicialValues);
+export default function useForm(initialValues) {
+  const [formValues, setFormValues] = useState(initialValues);
 
   function setFormValue(key, value) {
     setFormValues({
@@ -18,7 +18,7 @@ export default function useForm(inicialValues) {
   }
 
   function clearForm() {
-    setFormValues(inicialValues);
+    setFormValues(initialValues);
   }
 
   return {

@@ -7,13 +7,13 @@ import Button from '../../../components/Button';
 import config from '../../../config';
 
 function StoreCategory() {
-  const inicialValues = {
+  const initialValues = {
     title: '',
     description: '',
     color: '#E50914',
   };
 
-  const { handleChange, formValues, clearForm } = useForm(inicialValues);
+  const { handleChange, formValues, clearForm } = useForm(initialValues);
 
   const [categories, setCategories] = useState([]);
 
@@ -45,14 +45,13 @@ function StoreCategory() {
 
         <FormField
           label="Nome da categoria: "
-          type="text"
           name="title"
           value={formValues.title}
           onChange={handleChange}
         />
 
         <FormField
-          label="Descrição"
+          label="Descrição: "
           type="textarea"
           name="description"
           value={formValues.description}

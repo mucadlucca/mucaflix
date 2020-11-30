@@ -53,7 +53,11 @@ Carousel.defaultProps = {
 };
 
 Carousel.propTypes = {
-  category: PropTypes.string.isRequired,
+  category: PropTypes.shape({
+    title: PropTypes.string,
+    color: PropTypes.string,
+    link_extra: PropTypes.objectOf(PropTypes.string),
+  }).isRequired,
   ignoreFirstVideo: PropTypes.bool,
 };
 
